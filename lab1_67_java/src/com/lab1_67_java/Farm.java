@@ -22,8 +22,8 @@ record Farm(String location, int amountOfAnimals, int fanPower, int farmAge,
     @Override
     public String toString(){
         return "Location: " + this.location + "\nAmount of animals: " +this.amountOfAnimals +
-                "\nFan power: " +this.fanPower + "\nFarm age" + this.farmAge +
-                "\nOwner age" + this.ownerAge + "\nYear of founding" + this.yearOfFounding;
+                "\nFan power: " +this.fanPower + "\nFarm age: " + this.farmAge +
+                "\nOwner age: " + this.ownerAge + "\nYear of founding: " + this.yearOfFounding;
     }
 
     public static String getStaticField() {
